@@ -1,13 +1,19 @@
-# README
-## This is the README for your extension "Untabify" 
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+# Untabify
 
-* Split the editor (`Cmd+\` on OSX or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on OSX or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (OSX) to see a list of Markdown snippets
+Replace tabs with spaces and vice versa. 
 
-### For more information
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+## Usage
 
-** Enjoy!**
+### Replace tabs with spaces
+
+1. Open a file.
+2. Press `F1` and look for the command `Untabify` and hit `Enter` or press `Shift-T Shift-U`.
+3. Hit enter.
+4. Type how many spaces per tab you want to use and hit `Enter`.
+
+### Replaces spaces with tabs
+
+1. Open a file.
+2. Press `F1` and look for the command `Tabify` and hit `Enter` or press `Shift-T Shift-T`.
+3. Hit enter.
+4. Type how many spaces per tab you want to use and hit `Enter`.
