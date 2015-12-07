@@ -3,6 +3,14 @@
 	"description": "Replace tabs with spaces and vice versa.",
 	"version": "0.0.1",
 	"publisher": "ilich8086",
+	"homepage": "https://github.com/ilich/vscode-untabify",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ilich/vscode-untabify.git"
+	},
+	"bugs": {
+		"url": "https://github.com/ilich/vscode-untabify/issues"
+	},
 	"engines": {
 		"vscode": "^0.10.1"
 	},
@@ -10,14 +18,31 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:extension.sayHello"
+		"onCommand:tabify",
+		"onCommand:untabify"
 	],
 	"main": "./out/src/extension",
 	"contributes": {
-		"commands": [{
-			"command": "extension.sayHello",
-			"title": "Hello World"
-		}]
+		"commands": [
+			{
+				"command": "tabify",
+				"title": "Tabify"
+			},
+			{
+				"command": "untabify",
+				"title": "Untabify"
+			}
+		],
+		"keybindings": [
+			{
+				"command": "tabify",
+				"key": "Shift+T Shift+T"
+			},
+			{
+				"command": "untabify",
+				"key": "Shift+T Shift+U"
+			}
+		]
 	},
 	"scripts": {
 		"vscode:prepublish": "node ./node_modules/vscode/bin/compile",
