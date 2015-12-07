@@ -1,7 +1,7 @@
 {
 	"name": "Untabify",
 	"description": "Replace tabs with spaces and vice versa.",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"publisher": "ilich8086",
 	"homepage": "https://github.com/ilich/vscode-untabify",
 	"repository": {
@@ -36,11 +36,11 @@
 		"keybindings": [
 			{
 				"command": "tabify",
-				"key": "Shift+T Shift+T"
+				"key": "Ctrl+T Ctrl+T"
 			},
 			{
 				"command": "untabify",
-				"key": "Shift+T Shift+U"
+				"key": "Ctrl+T Ctrl+U"
 			}
 		]
 	},
